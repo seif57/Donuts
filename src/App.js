@@ -1,3 +1,4 @@
+import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './componenets/Home/Home'
@@ -7,16 +8,17 @@ import Header from './componenets/Header/Header';
 
 
 
-function App() {
-  
-  
-  return (
-    <div className="App">
+class App extends Component{
+
+  render(){
+    return(
+      <div className="App">
       <Header />
       <Home/>
      
     </div>
-  );
+    )
+  }
 }
 
 export default App;
