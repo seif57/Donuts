@@ -52,6 +52,20 @@
     right: 35px;
   }
 }
-span {
+#menu {
+  display: flex;
+  align-items: center;
+  padding-right: 2vw;
   cursor: pointer;
+}
+
+.topNav{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: chocolate;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5vw ;
 }
